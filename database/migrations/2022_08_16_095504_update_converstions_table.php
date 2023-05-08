@@ -15,7 +15,7 @@ class UpdateConverstionsTable extends Migration
     {
         Schema::table('conversations', function (Blueprint $table) {
             $table->renameColumn('user_id','sender_id');
-            $table->string('sender_type');
+//            $table->string('sender_type');
             $table->foreignId('receiver_id');
             $table->string('receiver_type');
             $table->foreignId('last_message_id')->nullable();
@@ -42,7 +42,7 @@ class UpdateConverstionsTable extends Migration
             $table->dropColumn('receiver_type');
             $table->dropColumn('last_message_id')->nullable();
             $table->dropColumn('last_message_time')->nullable();
-            $table->dropColumn('sender_type');
+//            $table->dropColumn('sender_type');
             $table->string('reply');
             $table->boolean('checked');
             $table->string('image')->nullable();
