@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8de7019d-e2bb-4d1b-9272-623980507709" name="Default Changelist" comment="" />
+    <list default="true" id="8de7019d-e2bb-4d1b-9272-623980507709" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_08_16_095504_update_converstions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2022_08_16_095504_update_converstions_table.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -295,7 +297,7 @@
       <workItem from="1630746551123" duration="2315000" />
       <workItem from="1682408721753" duration="1032000" />
       <workItem from="1683587949746" duration="92000" />
-      <workItem from="1683588049026" duration="1160000" />
+      <workItem from="1683588049026" duration="1416000" />
     </task>
     <servers />
   </component>
