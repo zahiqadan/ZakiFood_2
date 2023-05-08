@@ -13,11 +13,11 @@ class CreateFoodTagsTable extends Migration
      */
     public function up()
     {
-        Schema::create('food_tag', function (Blueprint $table) {
-            $table->id();
-            $table->foreignId('food_id');
-            $table->foreignId('tag_id');
-        });
+//        Schema::create('food_tag', function (Blueprint $table) {
+//            $table->id();
+//            $table->foreignId('food_id');
+//            $table->foreignId('tag_id');
+//        });
     }
 
     /**
@@ -27,6 +27,6 @@ class CreateFoodTagsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('food_tags');
+//        Schema::dropIfExists('food_tags');
     }
 }
