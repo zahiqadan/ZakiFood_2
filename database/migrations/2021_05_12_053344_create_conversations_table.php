@@ -15,6 +15,8 @@ class CreateConversationsTable extends Migration
     {
         Schema::create('conversations', function (Blueprint $table) {
             $table->id();
+            $table->bigInteger('user_id')->nullable();
+
             $table->foreignId('sender_id')->nullable();
             $table->string('sender_type')->nullable();
             $table->foreignId('receiver_id')->default(0);
