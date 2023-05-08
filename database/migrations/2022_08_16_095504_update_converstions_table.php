@@ -19,7 +19,7 @@ class UpdateConverstionsTable extends Migration
 //            $table->foreignId('receiver_id');
 //            $table->string('receiver_type');
 //            $table->foreignId('last_message_id')->nullable();
-            $table->timestamp('last_message_time')->nullable();
+//            $table->timestamp('last_message_time')->nullable();
             $table->integer('unread_message_count')->default(0);
             $table->dropColumn('message');
             $table->dropColumn('reply');
@@ -41,7 +41,7 @@ class UpdateConverstionsTable extends Migration
 //            $table->dropColumn('receiver_id');
 //            $table->dropColumn('receiver_type');
 //            $table->dropColumn('last_message_id')->nullable();
-            $table->dropColumn('last_message_time')->nullable();
+//            $table->dropColumn('last_message_time')->nullable();
 //            $table->dropColumn('sender_type');
             $table->string('reply');
             $table->boolean('checked');
