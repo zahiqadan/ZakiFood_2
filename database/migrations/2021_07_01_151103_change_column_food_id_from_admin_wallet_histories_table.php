@@ -14,7 +14,7 @@ class ChangeColumnFoodIdFromAdminWalletHistoriesTable extends Migration
     public function up()
     {
         Schema::table('admin_wallet_histories', function (Blueprint $table) {
-            
+
         });
     }
 
@@ -26,8 +26,8 @@ class ChangeColumnFoodIdFromAdminWalletHistoriesTable extends Migration
     public function down()
     {
         Schema::table('admin_wallet_histories', function (Blueprint $table) {
-            $table->foreignId('food_id')->nullable()->change();
-            $table->foreignId('item_campaign_id')->nullable();
+//            $table->foreignId('food_id')->nullable()->change();
+//            $table->foreignId('item_campaign_id')->nullable();
         });
     }
 }
