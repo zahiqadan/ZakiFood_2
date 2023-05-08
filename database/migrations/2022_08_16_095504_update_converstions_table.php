@@ -20,11 +20,11 @@ class UpdateConverstionsTable extends Migration
 //            $table->string('receiver_type');
 //            $table->foreignId('last_message_id')->nullable();
 //            $table->timestamp('last_message_time')->nullable();
-            $table->integer('unread_message_count')->default(0);
-            $table->dropColumn('message');
-            $table->dropColumn('reply');
-            $table->dropColumn('checked');
-            $table->dropColumn('image');
+//            $table->integer('unread_message_count')->default(0);
+//            $table->dropColumn('message');
+//            $table->dropColumn('reply');
+//            $table->dropColumn('checked');
+//            $table->dropColumn('image');
         });
     }
 
@@ -43,9 +43,9 @@ class UpdateConverstionsTable extends Migration
 //            $table->dropColumn('last_message_id')->nullable();
 //            $table->dropColumn('last_message_time')->nullable();
 //            $table->dropColumn('sender_type');
-            $table->string('reply');
-            $table->boolean('checked');
-            $table->string('image')->nullable();
+//            $table->string('reply');
+//            $table->boolean('checked');
+//            $table->string('image')->nullable();
         });
     }
 }
